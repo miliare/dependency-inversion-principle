@@ -23,7 +23,7 @@ public class FileExplorer {
     }
 
     public void moveToParentDirectory() {
-        File parentFile =  currentFile.getParentFile();
+        File parentFile = currentFile.getParentFile();
 
         if (parentFile != null) {
             currentFile = parentFile;
